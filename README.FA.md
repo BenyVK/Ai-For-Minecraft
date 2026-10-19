@@ -5,8 +5,8 @@
 یک پلاگین سبک برای **Paper** که به بازیکن‌ها اجازه می‌دهد داخل ماینکرفت مستقیم با هوش مصنوعی صحبت کنند. این پلاگین با هر API سازگار با **OpenAI**
 
 🌐 **English version:** [README.md](https://github.com/BenyVK/Ai-For-Minecraft/blob/main/README.md)
+<img alt="img" src="./img-1/2026-10-19_05.32.43.png">
 
----
 
 ## ✨ امکانات
 
