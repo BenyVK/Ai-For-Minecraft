@@ -3,8 +3,8 @@
 A lightweight **Paper** plugin that lets players talk to an AI directly inside Minecraft. It works with any **OpenAI-compatible** chat API.
 
 🌐 **Persian version:** [README.FA.md](https://github.com/BenyVK/Ai-For-Minecraft/blob/main/README.FA.md)
+<img alt="img" src="./img-1/2026-10-19_05.32.43.png">
 
----
 
 ## ✨ Features
 
