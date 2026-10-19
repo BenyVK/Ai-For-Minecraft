@@ -1,0 +1,31 @@
+# Create by BenyVK
+# Telegram https://t.me/i36VK
+# Github : https://Github.com/BenyVK
+
+# (OpenAI-compatible) settings
+base-url: "https://......PUT_URL_AI"
+api-key: "PUT_YOUR_API_KEY_HERE"
+model: "PUT_MODEL_API_AI"
+temperature: 0.7
+
+# Keep this small: Minecraft chat is not made for long texts
+max-tokens: 400
+max-reply-chars: 1000
+
+system-prompt: "You are a helpful assistant inside a Minecraft server. Answer in the same language as the player. Keep answers short and use plain text only, no markdown."
+
+# How many recent messages (user + AI) are sent to the AI as context
+history-size: 10
+# How many messages are kept in each player's saved file (plugins/ai-server/chats/<PlayerName>.json)
+max-saved-messages: 200
+cooldown-seconds: 5
+
+# true = write plugins/ai-server/log.log (enable/disable, who asked what, AI replies, errors)
+# Note: the log contains players' questions and the AI's answers. The API key is never logged.
+log: true
+
+# If enabled, any chat message starting with the prefix goes to the AI.
+# The message and the answer are private: only that player sees them.
+chat:
+  enabled: false
+  prefix: "ai "
